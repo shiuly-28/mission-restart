@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/logo.png">
     <title>Mission Restart</title>
+    <link rel="stylesheet" href="style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- google font -->
@@ -131,6 +132,17 @@
     </div>
 </section>
 
+<section class="py-16 max-w-7xl mx-auto px-6">
+    <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold">Trending Products</h2>
+        <p class="text-gray-500">Check out our most popular items</p>
+    </div>
+    
+    <div id="trending-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <span class="loading loading-spinner loading-lg mx-auto col-span-3"></span>
+    </div>
+</section>
+
 <!-- Footer -->
 <footer class="bg-[#1A2232] text-gray-400 py-12 px-6 md:px-16">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -183,6 +195,7 @@
         </div>
     </div>
 </footer>
-    <script src="style.css"></script>
+    
+    <script src="script/script.js"></script>
 </body>
 </html>
